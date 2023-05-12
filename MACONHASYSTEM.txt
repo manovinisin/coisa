@@ -1,0 +1,23 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{int temp;
+		Console.WriteLine("Informe uma temperatura em *GRAUS CELSIUS*.");
+	 	temp = Convert.ToInt16(Console.ReadLine());
+	 	if (temp < 0) {Console.WriteLine("The winter is coming...");
+					}
+	 else if (temp > 0 && temp < 10) {Console.WriteLine("Muito frio");
+}
+	 else if (temp >= 11 && temp < 20) {Console.WriteLine("Frio");
+}
+	else if (temp >=21 && temp <30) {Console.WriteLine("Agradavel");
+}
+	else if (temp >=31 && temp <40) {Console.WriteLine("Calor");
+}
+	 else if (temp >=41) {Console.WriteLine("Inferno na terra!");
+						 }
+	 
+	}
+}
